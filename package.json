@@ -1,6 +1,6 @@
 {
   "name": "tuple-map",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ES6 Map where keys are 2-tuples",
   "main": "index.js",
   "typings": "index.d.ts",

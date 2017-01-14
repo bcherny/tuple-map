@@ -15,12 +15,12 @@ import { TupleMap } from 'tuple-map'
 
 const map = new TupleMap
 
-map.set([1, 2], 'a')
-   .set([3, 4], 'b')
+map.set(1, 2, 'a')
+   .set(3, 4, 'b')
 
-map.get([1, 2]) // 'a'
-map.get([3, 4]) // 'b'
-map.get([5, 6]) // undefined
+map.get(1, 2) // 'a'
+map.get(3, 4) // 'b'
+map.size      // 2
 ```
 
 ## Tests
